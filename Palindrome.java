@@ -9,6 +9,7 @@ public class Palindrome
 		System.out.println("Enter the text: ");
 		String text = input.nextLine(); 
 		System.out.println(isPalindrome(text));
+		input.close();
 
 		// Complete and use the methods below to 
 		// determine if "text" is a palindrome.
